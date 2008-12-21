@@ -1,0 +1,14 @@
+{artist, {dave,brubeck}, jazz, piano}.
+{artist, {paul,desmond}, jazz, saxophone}.
+{artist, {george,benson}, jazz, guitar}.
+{song, "Blue Rondo a la Turk", 1959, {dave,brubeck}}.
+{song, "Take Five", 1959, {paul,desmond}}.
+{album, "Time Out", {dave,brubeck}, 1959}.
+{album, "In Concert", {george,benson}, 1975}.
+{appears_on, "Take Five", "Time Out"}.
+{appears_on, "Take Five", "In Concert"}.
+{appears_on, "Blue Rondo a la Turk", "Time Out"}.
+
+{store, "Time Out", 10, 24.99}.
+{store, "In Concert", 20, 19.99}.
+
